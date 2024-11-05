@@ -1,5 +1,5 @@
 ## End to End Machine Learning Project
-# Nandani's Machine Learning 
+# Machine Learning Project
 
 Welcome to my machine learning project! This repository showcases my end-to-end machine learning project using CatBoost, Python, and Flask, with a focus on data preprocessing, model training, and deployment.
 
