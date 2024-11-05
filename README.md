@@ -77,18 +77,6 @@ To run this project, you’ll need:
    python app.py
 
 
-  ### Open `index.html` in Your Preferred Web Browser
-
-- **In Visual Studio Code**: 
-  - Right-click on `index.html` in the Explorer panel.
-  - Select **"Open with Live Server"** (requires the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed in Visual Studio Code).
-  
-- **Alternatively**: 
-  - Open the file directly in your browser by navigating to the project directory in your file explorer.
-  - Double-click on `index.html` to open it.
-
-
-
 ### Explanation of Key Folders and Files
 
 - **artifacts/**: Contains model artifacts, including trained models and any serialized data required for inference.
@@ -109,4 +97,52 @@ To run this project, you’ll need:
 
 
 
+## 🛠️ Technologies Used
 
+- **Python**: Core programming language for the entire project.
+- **CatBoost**: Machine learning algorithm used for training the model.
+- **Flask**: Web framework for deploying the model as a web service.
+- **Jupyter Notebook**: Used for data exploration and analysis.
+- **HTML & CSS**: Basic styling and structure for the web application.
+- **Logging and Exception Handling**: Custom modules for efficient debugging and tracking.
+
+## 📝 Project Details
+
+### 1. Data Preprocessing
+
+- **Location**: `src/components/`
+- **Description**: Includes scripts for data cleaning and preparation. Handles tasks such as:
+  - Missing value handling
+  - Feature engineering
+  - Data transformations for model compatibility
+
+### 2. Model Training
+
+- **Location**: `src/pipeline/`
+- **Description**: Contains scripts for training the CatBoost model on preprocessed data.
+  - Logs training metrics for analysis
+  - Saves model artifacts in the `artifacts/` directory for future use or deployment
+
+### 3. Flask Deployment
+
+- **Location**: `app.py`
+- **Description**: Main application script that serves the model through a simple UI.
+  - HTML templates (`home.html` and `index.html`) are located in the `templates/` directory.
+  - Uses Flask to deploy the model as a web service with a user-friendly interface.
+
+### 4. Logging and Error Handling
+
+- **Location**: `src/`
+  - **Logging Module**: `logger.py`
+  - **Exception Handling Module**: `exception.py`
+- **Description**: Provides structured logging and error management throughout the application. Ensures efficient debugging and tracking of events and errors.
+
+### Open `index.html` in Your Preferred Web Browser
+
+- **In Visual Studio Code**: 
+  - Right-click on `index.html` in the Explorer panel.
+  - Select **"Open with Live Server"** (requires the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed in Visual Studio Code).
+  
+- **Alternatively**: 
+  - Open the file directly in your browser by navigating to the project directory in your file explorer.
+  - Double-click on `index.html` to open it.
