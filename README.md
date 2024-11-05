@@ -1,11 +1,11 @@
 ## End to End Machine Learning Project
-# Nandani's Machine Learning Portfolio
+# Nandani's Machine Learning 
 
-Welcome to my machine learning portfolio! This repository showcases my end-to-end machine learning project using CatBoost, Python, and Flask, with a focus on data preprocessing, model training, and deployment.
+Welcome to my machine learning project! This repository showcases my end-to-end machine learning project using CatBoost, Python, and Flask, with a focus on data preprocessing, model training, and deployment.
 
-# ML Project Portfolio
+# ML Project 
 
-Welcome to my machine learning project portfolio! This repository contains a machine learning pipeline using CatBoost for model training, Flask for deployment, and a variety of utility modules for error handling and logging.
+Welcome to my machine learning project ! This repository contains a machine learning pipeline using CatBoost for model training, Flask for deployment, and a variety of utility modules for error handling and logging.
 
 ## 📋 Project Sections
 
