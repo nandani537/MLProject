@@ -74,7 +74,8 @@ To run this project, you’ll need:
 5. **Run the Flask application**:
 
    ```bash
-  python app.py
+   python app.py
+
 
   ### Open `index.html` in Your Preferred Web Browser
 
