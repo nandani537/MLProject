@@ -88,30 +88,34 @@ To run this project, you’ll need:
 
 
 
-MLProject/
-├── artifacts/                    # Stores model artifacts and serialized files
-├── catboost_info/                # Directory with CatBoost training information
-│   ├── learn/
-│   ├── tmp/
-│   ├── catboost_training.json    # JSON file with training configuration
-│   ├── learn_error.tsv           # Training error logs
-│   └── time_left.tsv             # Time left for training
-├── logs/                         # Log files generated during execution
-├── notebook/                     # Jupyter notebooks for data analysis and exploration
-│   └── data/                     # Folder for raw data used in the notebooks
-├── src/                          # Source code for custom modules
-│   ├── components/               # Custom components for data processing
-│   ├── pipeline/                 # Pipeline scripts for data and model processing
-│   ├── exception.py              # Custom exception handling module
-│   ├── logger.py                 # Logging configuration and functions
-│   └── utils.py                  # Utility functions for data handling and processing
-├── templates/                    # HTML templates for the Flask web app
-│   ├── home.html                 # Home page template
-│   └── index.html                # Main landing page for the application
-├── venv/                         # Virtual environment files (not included in GitHub)
-├── .gitignore                    # Files and directories to ignore in Git
-├── app.py                        # Flask application entry point
-├── README.md                     # Project README file
-├── requirements.txt              # List of Python dependencies
-└── setup.py                      # Setup script for packaging the project
+### Explanation of Key Folders and Files
+
+- **artifacts/**: Contains model artifacts, including trained models and any serialized data required for inference.
+- **catboost_info/**: Directory with CatBoost-specific training information.
+- **logs/**: Log files that capture execution details for debugging and tracking.
+- **notebook/**: Includes Jupyter notebooks used for data exploration and experimentation.
+- **src/**: Source code for core modules, including:
+  - `components/`: Contains components for data processing.
+  - `pipeline/`: Scripts for model pipeline and processing.
+  - `exception.py`: Module for handling exceptions.
+  - `logger.py`: Logging configuration and functions.
+  - `utils.py`: Utility functions to aid in data processing.
+- **templates/**: HTML templates for the web application frontend.
+- **venv/**: Virtual environment directory (excluded from GitHub).
+- **app.py**: The main Flask application file.
+- **requirements.txt**: Lists the Python packages and dependencies for the project.
+- **setup.py**: Script for packaging the project if required.
+
+---
+
+This format will display the folder structure in a clean, organized way in your GitHub README file.
+
+### Steps to Save and Preview in GitHub
+1. After updating your `README.md` file with this structure, **save the file** (`Cmd + S` on Mac or `Ctrl + S` on Windows).
+2. **Commit** and **push** the changes to GitHub:
+   ```bash
+   git add README.md
+   git commit -m "Updated folder structure in README.md"
+   git push origin main
+
 
