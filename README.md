@@ -106,16 +106,6 @@ To run this project, you’ll need:
 - **requirements.txt**: Lists the Python packages and dependencies for the project.
 - **setup.py**: Script for packaging the project if required.
 
----
 
-This format will display the folder structure in a clean, organized way in your GitHub README file.
-
-### Steps to Save and Preview in GitHub
-1. After updating your `README.md` file with this structure, **save the file** (`Cmd + S` on Mac or `Ctrl + S` on Windows).
-2. **Commit** and **push** the changes to GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Updated folder structure in README.md"
-   git push origin main
 
 
